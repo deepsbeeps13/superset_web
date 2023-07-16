@@ -15,4 +15,4 @@
         "express": "^4.18.2"
     }
 }
-//cd client && npm install && npm run build
+--cd client && npm install && npm run build
