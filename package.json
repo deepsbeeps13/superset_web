@@ -6,7 +6,7 @@
    "engines": { "node": "18.x" },
     "scripts": {
         "start": "node server/index.js",
-        "build": "next build"
+        "build": "cd client && npm install && npm run build"
     },
     "keywords": [],
     "author": "",
@@ -15,4 +15,3 @@
         "express": "^4.18.2"
     }
 }
---cd client && npm install && npm run build
