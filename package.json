@@ -4,9 +4,8 @@
     "description": "",
     "main": "index.js",
    "engines": { "node": "18.x" },
-    "scripts": {
-        "start": "node server/index.js",
-        "build": "cd client && npm install && npm run build"
+ "scripts":{
+        "vercel-install": "./vercel-submodule-workaround.sh && yarn --ignore-scripts --production=false",
     },
     "keywords": [],
     "author": "",
